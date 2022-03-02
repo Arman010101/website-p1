@@ -1,0 +1,131 @@
+body {background-color: rgb(235, 221, 221);
+color: rgb(107, 107, 107);
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+font-size: 16px;
+line-height: 1.5em;
+margin: 0px;
+position: relative;
+
+}
+
+/* ===========container=========== */
+.main {
+  width:96%;
+	margin:0%;
+	overflow:hidden;
+}
+
+
+
+/* ===========main header=========== */
+#main-header {background-color: rgb(0, 0, 0);
+
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 6px 8px red;
+	padding-left: 10px;
+}
+
+
+/* ===========Nav=========== */
+
+#navbar{
+  background-color: white;
+	background-image: linear-gradient(rgb(245, 6, 6), rgb(14, 5, 5));
+}
+
+#navbar ul {margin: 5px; padding: 0px; list-style: none; text-align: right; }
+
+#navbar li {display: inline-block; }
+
+#navbar a {background-color: #080706;
+color: rgb(29, 224, 198);
+text-decoration: none;
+font-size:18px;
+padding: 5px 5px ;
+margin-right: 15px;
+border-radius: 5px;
+text-shadow: 2px 5px 7px ;
+
+
+}
+
+#navbar a:hover{
+  background-color: aqua;
+  color: rgb(0, 0, 0);
+  transition: 0.5s;
+}
+
+
+/* ===========Showcase=========== */
+
+#showcase {
+  background-image: url(../img/Showcase_n.jpg);
+  background-repeat: no-repeat;
+	background-position: center right;
+	background-size: cover;
+	min-height: 500px;
+ 	margin-bottom:20px;
+}
+
+/* ===========Homepage content=========== */
+.container {
+	width:68%;
+	display: inline;
+	
+	
+
+}
+.container div { 
+	padding: 20px;
+	text-align: left;
+	margin-left:2%;
+	margin-right:40%;
+	margin-bottom: 20px;
+
+}
+
+.container h2 { 
+	text-align: left;
+	display: inline;
+	border: 4px solid black;
+	padding: 5px;
+	background-image: url(../img/showcasecode.gif);
+	background-size:cover;
+	background-repeat: no-repeat;
+}
+
+.container .child0 { background-color: rgb(255, 243, 243);
+	color: #080706;}
+	
+.container .child1 { background-color: rgb(255, 243, 243);
+color: #080706;}
+.container .child2 {background-color: rgb(255, 243, 243);
+	color: #080706;}
+.container .child3 {background-color: rgb(255, 243, 243);
+	color: #080706;
+}
+/* ===========tips=========== */
+
+
+
+
+
+/* ===========footer=========== */
+
+#main-footer{
+	background: #333;
+	color:#fff;
+	text-align: center;
+	padding:5px;
+	margin-top:20px;
+}
+
+@media (max-width:600px) 
+{#showcase 
+{min-height:213px;}
+.container .child0 {width: 80%;margin: auto; margin-bottom: 10px;}
+.container .child1 {width: 80%;margin: auto;margin-bottom: 10px;}
+.container .child2 {width: 80%;margin: auto;margin-bottom: 10px;}
+.container .child3 {width: 80%;margin: auto;margin-bottom: 10px;}
+}
+
